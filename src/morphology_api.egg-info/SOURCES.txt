@@ -14,6 +14,7 @@ src/morphology_service/api/v1/schemas.py
 src/morphology_service/core/__init__.py
 src/morphology_service/core/config.py
 src/morphology_service/services/__init__.py
+src/morphology_service/services/hfst_backend.py
 src/morphology_service/services/llm_client.py
 src/morphology_service/services/morphology.py
 src/morphology_service/services/rule_engine.py

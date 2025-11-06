@@ -17,6 +17,7 @@ dependencies = [
     "llm>=0.12,<1.0.0",
     "llm-gemini>=0.1.0,<1.0.0",
     "tenacity>=8.2.3,<9.0.0",
+    "hfst>=3.16.0.1,<4.0.0",
 ]
 
 [project.optional-dependencies]

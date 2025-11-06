@@ -131,6 +131,28 @@ wheels = [
 ]
 
 [[package]]
+name = "hfst"
+version = "3.16.0.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/22/31/a369d0da3d396528ce23983a8e674ae3c5622330bd438ef638a4d1978d59/hfst-3.16.0.1-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:dd2eb545aef3dba76f1057bce003ff3674282d4a256eabd3f96c772200538341", size = 18412219 },
+    { url = "https://files.pythonhosted.org/packages/61/7f/b938ac9ca4d6b0ce73c3069bd519efe798dfa77fa9a411a51599d01c8d38/hfst-3.16.0.1-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:916b71857a41f9504ae0282036a4134d7cc7499f4e975b2e719fe7fe834425bd", size = 17762950 },
+    { url = "https://files.pythonhosted.org/packages/3a/78/35be7b34af8e03f2104b01eb3f4b3ba930dbe28efb4c6bec1592cc955cb6/hfst-3.16.0.1-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:bebc7c55857c230013455f113b2460bf0b586e5a38ab0f8bcf1365fefea38128", size = 61921712 },
+    { url = "https://files.pythonhosted.org/packages/a6/3b/f64483279361c30581aa40a2d9352503d2db06533310425c70f09d75e027/hfst-3.16.0.1-cp310-cp310-manylinux_2_28_x86_64.whl", hash = "sha256:7d5442fd332a33c437ae733942c3aceb0fbac8203a97577afde2ec1a488162a9", size = 66741456 },
+    { url = "https://files.pythonhosted.org/packages/87/a0/0ded3a9ffc0e039d2ce07bacf8ab62b26640b8cbd6fdffdf8cc26d903d03/hfst-3.16.0.1-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:6bf88c17e1651a0ec61d67ff7b99d8243abfe634441055d416f6522e3e60f53e", size = 18412364 },
+    { url = "https://files.pythonhosted.org/packages/2a/66/d5719a9652a7348988f1444e7f1fe2af9df3a80031fa101691f14e9f6ad7/hfst-3.16.0.1-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:364c1e7d5e7efbc56a829670adbbe853ebca04a99c9ddb2eeb851fc02aefedd0", size = 17762951 },
+    { url = "https://files.pythonhosted.org/packages/68/aa/a56f120f9f31a366038b14f092c5c4f26bb1ae9e6fd8332b3359b3c87063/hfst-3.16.0.1-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:a40fc49845d11bf255e38d0d3c1414aa2710e49ec66ddc18ebf0ad550e622c9b", size = 61953353 },
+    { url = "https://files.pythonhosted.org/packages/f9/14/86240803f3b6c1763363d3916fad5418673813aaea248699b2e5d4a0fdb4/hfst-3.16.0.1-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:f6053282e5fcc8e603650ddaf0e9bb2eab083d738a0413cfc8932f2457fdec36", size = 66771721 },
+    { url = "https://files.pythonhosted.org/packages/d7/b2/1843c91f0e475868e7b96d5eb1e592b262336b89b56c5380820a5064fd98/hfst-3.16.0.1-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:0bc77167a41260ea2cd277be8b91920d969f1317bfef16555df6a3b4aeb886b7", size = 18415996 },
+    { url = "https://files.pythonhosted.org/packages/32/95/45b13d669cd95dac91fd70255566fc7e0d66f36b819aa8e3aa6b7d0482d8/hfst-3.16.0.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:26accb40715e62d3615178ea26c0565ecfbba11f8406ee38add0b97ee4f15721", size = 17764638 },
+    { url = "https://files.pythonhosted.org/packages/08/37/779c11f64d29f409b18aaea585aa1b208bb5e9488b5e3590a33e7123c20b/hfst-3.16.0.1-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:d52331496d68566ed823a1207834e81862ec3de90124ab36ef27b33db59cb6f5", size = 61968642 },
+    { url = "https://files.pythonhosted.org/packages/95/38/8d48a72af869872a6642d565099dc554337c46bd3bfcd801b33c5ef303f1/hfst-3.16.0.1-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:ba46f9bef28a4b0c396cd753b5db76c2886102041f4287c286c37c06f3f6f525", size = 66823736 },
+    { url = "https://files.pythonhosted.org/packages/16/01/1d92fca0c1784509147724efc310ca59e820196a01231a0cc2234c6ce26e/hfst-3.16.0.1-pp310-pypy310_pp73-macosx_10_9_x86_64.whl", hash = "sha256:a3cfd77b4365af3c9241a0738bb7c5248a267a77a0cb0959ace10565f3c8f94c", size = 18325793 },
+    { url = "https://files.pythonhosted.org/packages/32/2d/bddaf0b8a32db20db4cdba5e877779eb32e596719212f03d6e83e1b0df83/hfst-3.16.0.1-pp310-pypy310_pp73-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:b10a8898cdf60471b1cc7a5ee4fd07152706689afe2d453f7ffc81174ff5714f", size = 57902683 },
+    { url = "https://files.pythonhosted.org/packages/92/78/108923c900583e3ed80cab08ea7351c2e91d3254275506eca1dd8dd2bec3/hfst-3.16.0.1-pp310-pypy310_pp73-manylinux_2_28_x86_64.whl", hash = "sha256:6e1fd7230176888d122b642e4bc202f3668561f09241d9bd727be0e27f3cb613", size = 62227263 },
+]
+
+[[package]]
 name = "httpcore"
 version = "1.0.9"
 source = { registry = "https://pypi.org/simple" }
@@ -452,6 +474,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "fastapi" },
+    { name = "hfst" },
     { name = "httpx" },
     { name = "llm" },
     { name = "llm-gemini" },
@@ -471,6 +494,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "fastapi", specifier = ">=0.111.0,<1.0.0" },
+    { name = "hfst", specifier = ">=3.16.0.1,<4.0.0" },
     { name = "httpx", specifier = ">=0.27.0,<1.0.0" },
     { name = "httpx", marker = "extra == 'dev'", specifier = ">=0.27.0,<1.0.0" },
     { name = "llm", specifier = ">=0.12,<1.0.0" },

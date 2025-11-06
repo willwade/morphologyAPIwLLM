@@ -12,6 +12,7 @@ Requires-Dist: httpx<1.0.0,>=0.27.0
 Requires-Dist: llm<1.0.0,>=0.12
 Requires-Dist: llm-gemini<1.0.0,>=0.1.0
 Requires-Dist: tenacity<9.0.0,>=8.2.3
+Requires-Dist: hfst<4.0.0,>=3.16.0.1
 Provides-Extra: dev
 Requires-Dist: pytest<9.0.0,>=8.1.0; extra == "dev"
 Requires-Dist: pytest-asyncio<1.0.0,>=0.23.6; extra == "dev"

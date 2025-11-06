@@ -11,6 +11,7 @@ FastAPI service that mirrors Ultralingua-style morphology endpoints (conjugation
 - `/v1/definitions`, `/v1/terms` – dictionary-style lookups (LLM-driven today)
 - `/v1/help/*` – catalogs mirroring ULAPI (`partsofspeech`, `tenses`, etc.)
 - Hybrid orchestration: LLM first, deterministic rule engine fallback on low confidence
+- English deterministic backend implemented with HFST finite-state transducers (falls back gracefully if HFST is unavailable)
 - `force_deterministic=true` shortcut for rule-only responses (returns HTTP 422 if unavailable)
 
 ## Getting Started
@@ -38,6 +39,16 @@ echo "MORPHOLOGY_GEMINI_API_KEY_FILE=.secrets/gemini.key" >> .env
 ```
 
 The settings loader will read the key on startup and expose it to the `llm` plugin automatically.
+
+### HFST finite-state support
+
+The deterministic English backend now prefers [HFST](https://hfst.github.io) transducers. The Python bindings are pulled in automatically through `hfst` when you install the project dependencies. On platforms without prebuilt HFST wheels, the service will fall back to the legacy heuristic rules while still exposing the same API surface. To force HFST usage, ensure the package installs cleanly in your environment:
+
+```bash
+uv pip install hfst
+```
+
+At runtime you can confirm the backend selection via `/v1/help/languages`, which now annotates each language with its deterministic provider.
 
 Run the API:
 
