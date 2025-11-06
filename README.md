@@ -1,6 +1,6 @@
 # Morphology API (LLM-backed)
 
-FastAPI service that mirrors Ultralingua-style morphology endpoints (conjugations, lemmas, plurals, number spelling, etc.) while remaining provider-agnostic. The primary backend uses [Simon Willison's `llm`](https://github.com/simonw/llm) library so you can swap between Gemini, Ollama, OpenAI, or any other supported provider. A lightweight deterministic rule engine ships with the service for offline or forced-deterministic flows.
+FastAPI service that provides morphology endpoints (conjugations, lemmas, plurals, number spelling, etc.). The primary backend uses [Simon Willison's `llm`](https://github.com/simonw/llm) library so you can swap between Gemini, Ollama, OpenAI, or any other supported provider. A lightweight deterministic rule engine ships with the service for offline or forced-deterministic flows: We want to extend this to HFSTs in the future so less is by LLM and more by these. 
 
 ## Features
 
