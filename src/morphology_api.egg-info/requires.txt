@@ -1,0 +1,13 @@
+fastapi<1.0.0,>=0.111.0
+uvicorn[standard]<1.0.0,>=0.29.0
+pydantic<3.0.0,>=2.7.0
+pydantic-settings<3.0.0,>=2.2.1
+httpx<1.0.0,>=0.27.0
+llm<1.0.0,>=0.12
+llm-gemini<1.0.0,>=0.1.0
+tenacity<9.0.0,>=8.2.3
+
+[dev]
+pytest<9.0.0,>=8.1.0
+pytest-asyncio<1.0.0,>=0.23.6
+httpx<1.0.0,>=0.27.0

@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.secrets/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Tooling artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor junk
+.DS_Store
+.idea/
+.vscode/
+
+# Reports
+coverage.xml
+.coverage*
+
